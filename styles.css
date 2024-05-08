@@ -1,0 +1,87 @@
+/* Estilos generales */
+
+/* Hacer que los enlaces visitados sean de un color diferente */
+a:visited {
+    color: #800080; /* Púrpura */
+  }
+  
+  /* Asegurar un buen contraste entre el texto y el fondo */
+  body {
+    color: #333; /* Color de texto oscuro */
+    background-color: #fff; /* Color de fondo blanco */
+  }
+  
+  /* Estilos específicos para la navegación */
+  
+  /* Resaltar el enlace activo */
+  .navbar-nav .nav-item.active .nav-link {
+    color: #007bff; /* Azul */
+  }
+  
+  /* Cambiar el color del botón activo */
+  .navbar-nav .nav-item.active .nav-link {
+    background-color: #007bff; /* Azul */
+    border-color: #007bff; /* Azul */
+  }
+  
+  /* Añadir subrayado a los enlaces cuando se pasan por encima */
+  .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos específicos para el formulario de búsqueda */
+  
+  /* Cambiar el color del botón de búsqueda al pasar el cursor */
+  .navbar-nav .form-inline button.btn-outline-light:hover {
+    color: #333; /* Color de texto oscuro */
+    background-color: #f8f9fa; /* Color de fondo gris claro */
+  }
+  
+  /* Estilos específicos para el breadcrumb */
+  
+  /* Cambiar el color del breadcrumb */
+  .breadcrumb {
+    background-color: #f8f9fa; /* Color de fondo gris claro */
+  }
+  
+  /* Estilos específicos para los botones */
+  
+  /* Añadir borde redondeado a los botones */
+  .btn {
+    border-radius: 20px; /* Borde redondeado */
+  }
+  
+  /* Añadir sombra a los botones al pasar el cursor */
+  .btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+
+  .btn-back {
+    background-color: #008000; /* Cambia el color de fondo del botón */
+    color: #ffffff; /* Cambia el color del texto del botón */
+  }
+
+  .text {
+    font-family: Arial, sans-serif; /* Utiliza la fuente Arial y sans-serif como altr */
+    font-size: 1em; /* Tamaño de fuente relativo */
+    line-height: 1.5; /* Espaciado entre líneas 1.5 veces el tamaño de la fuente */
+    color: #000000; /* Color negro para el texto */
+    background-color: #ffffff; /* Fondo blanco */
+    font-weight: normal; /* Texto con peso normal (no negrita) */
+    text-decoration: none; /* Evitar subrayado */
+  }
+  
+@media (max-width: 767px) {
+  /* Estilos para dispositivos móviles */
+}
+
+/* Ejemplo de media query para tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para tablets */
+}
+
+/* Ejemplo de media query para dispositivos de escritorio */
+@media (min-width: 992px) {
+  /* Estilos para dispositivos de escritorio */
+}
+
